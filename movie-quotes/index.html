@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<head>
+    <title>Staab - Assigment 2 (Quotes)</title>
+</head>
+<body>
+  <div class="canvas">
+    
+    <div class="names">
+      <h1 style="text-align:center; color: white;">Quotes: Ghostbusters (1984)</h1>
+      <div class="nameelement" id="pv1">Dr. Peter Venkman</div>
+      <div class="nameelement" id="db1">Dana Barrett</div>
+      <div class="nameelement" id="m1">Mayor</div>
+      <div class="nameelement" id="rs1">Dr Ray Stantz</div>
+      <div class="nameelement" id="es1">Dr. Egon Spengler</div>
+      <div class="nameelement" id="wz1">Winston Zeddemore</div>
+    </div>
+    
+      
+    <div class="section1">
+      <p class="pv">What I'd really like to do is talk to Dana. Dana? It's Peter.</p>
+      <p class="db">There is no Dana, there is only Zuul.</p>
+      <p class="pv">Oh, Zuulie, you nut, now c'mon. Just relax, c'mon. I want to talk to Dana. Dana, Dana. "Can I talk to Dana?</p>
+      <p class="db"><strong>There is no Dana, only Zuul!</strong></p>
+      <p class="pv">What a lovely singing voice you must have.</p>
+    </div>
+    <div class="section2">
+      <p class="pv">This city is headed for a disaster of biblical proportions.</p>
+      <p class="m">What do you mean, 'biblical?</p>
+      <p class="rs">What he means is Old Testament, Mr. Mayor, real wrath of God type stuff.</p>
+      <p class="pv">Exactly.</p>
+      <p class="rs">Fire and brimstone coming down from the skies! Rivers and seas boiling!</p>
+      <p class="es">Forty years of darkness! Earthquakes, volcanoes...</p>
+      <p class="wz">The dead rising from the grave!</p>
+      <p class="pv">Human sacrifice, dogs and cats living together... mass hysteria!</p>
+      <p class="m">All right, all right! I get the point!</p>
+    </div>
+    <div class="section3">
+      <p class="em">clearing away tables in the dining room to make room for the ghost trap</p>
+      <p class="rs">I've gotta get this in the clear...!</p>
+      <p class="rs">Wait, wait, wait! I've always wanted to do this...</p>
+      <p class="em">He yanks a tablecloth off of a table, overturning and shattering everything except the centerpiece in the middle</p>
+      <p class="pv">And the flowers are still standing!</p>
+  </div>
+</body>
+  <style>
+    .canvas{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.names{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  position: fixed;
+  width: 78vw;
+  z-index: 10;
+  top: 0;
+  background: #444;
+  padding-bottom: 20px;
+  margin:0;
+  
+}
+.authors{
+  font-size: 24px;
+}
+.section1{
+  position: relative;
+  z-index: 0;
+  padding-left: 10vw;
+  padding-right: 12vw;
+  margin-top: 200px;
+}
+.section2{
+  position: relative;
+  z-index: 0;
+  padding-left: 10vw;
+  padding-right: 12vw;
+  margin-top: 50px;
+}
+.section3{
+  position: relative;
+  z-index: 0;
+  padding-left: 10vw;
+  padding-right: 12vw;
+  margin-top: 50px;
+}
+
+.pv{
+  text-align: left;
+  width: 33%;
+  position: relative;
+    background: #CC7A7A;
+}
+.rs{
+  text-align: left;
+  width: 33%;
+  position: relative;
+  background: #7ACCCC;
+}
+.db{
+  text-align: center;
+  width: 33%;
+  left: 33%;
+  position: relative;
+    background: #CCCC7A;
+}
+.es{
+  text-align: center;
+  width: 33%;
+  left: 33%;
+  position: relative;
+    background: #7A7ACC;
+}
+.m{
+  text-align: right;
+  width: 33%;
+  left: 67%;
+  position: relative;
+    background: #7ACC7A;
+}
+.wz{
+  text-align: right;
+  width: 33%;
+  left: 67%;
+  position: relative;
+  background: #CC7ACC;
+}
+.em{
+  text-align: center;
+  width: 50%;
+  left: 25%;
+  position: relative;
+  font-style: italic;
+  background: #444;
+  color: #eee;
+  
+}
+p{
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.nameelement{
+  width: 33%;
+  display: inline-block;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+}
+#pv1{
+  background: #CC7A7A;
+}
+#db1{
+  background: #CCCC7A;
+}
+#m1{
+  background: #7ACC7A;
+}
+#rs1{
+  background: #7ACCCC;
+}
+#es1{
+  background: #7A7ACC;
+}
+#wz1{
+  background: #CC7ACC;
+}
+  </style>
